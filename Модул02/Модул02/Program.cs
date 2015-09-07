@@ -26,23 +26,22 @@ namespace Модул02
 			//Допълнителни оператори
 			Console.WriteLine ("\nИзползване на +=");
 			a += b;
-			Console.WriteLine ( a );
+			Console.WriteLine (a);
 
 			Console.WriteLine ("\nИзползване на -=");
 			a -= b;
-			Console.WriteLine ( a );
+			Console.WriteLine (a);
 
 			Console.WriteLine ("\nИзползване на *=");
 			a *= b;
-			Console.WriteLine ( a );
+			Console.WriteLine (a);
 
 			Console.WriteLine ("\nИзползване на ++");
 			a++;
-			Console.WriteLine ( a );
+			Console.WriteLine (a);
 
 			Console.WriteLine ("Стандартно делене" + (16 / 3).ToString ());
 			Console.WriteLine ("Остатък от делене" + (16 % 3).ToString ());
-
 		}
 	}
 }
