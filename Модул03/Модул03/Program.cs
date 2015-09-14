@@ -28,13 +28,7 @@ namespace Модул03
 			//Закръгление
 			c = Math.Round ( a / b );
 			Console.WriteLine ("\n\n>a / b = " + c.ToString ());
-
-
-
-
-
-
-	
+								
 		}
 	}
 }
