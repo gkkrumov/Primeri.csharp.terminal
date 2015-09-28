@@ -11,7 +11,7 @@ namespace BoolExplore02
 			int _ui = 0;
 			string _input = "0";
 
-			Console.WriteLine ("Моля въведетеиндекс: ");
+			Console.WriteLine ("Моля въведете индекс: ");
 			_input = Console.ReadLine ();
 
 			bool _check01 = int.TryParse ( _input, out _ui );

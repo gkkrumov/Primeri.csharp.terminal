@@ -1,12 +1,15 @@
 ﻿<Properties StartupItem="BoolExplore02\BoolExplore02.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BoolExplore\Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="c:\aula\primeri.csharp.terminal\Модул03\BoolExplore02\Program.cs">
     <Files>
-      <File FileName="BoolExplore\Program.cs" Line="40" Column="2" />
+      <File FileName="BoolExplore\Program.cs" Line="23" Column="38" />
+      <File FileName="c:\aula\primeri.csharp.terminal\Модул03\BoolExplore02\Program.cs" Line="9" Column="36" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="c:\aula\primeri.csharp.terminal\Модул03\BoolExplore02\Program.cs" line="20" column="32" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
