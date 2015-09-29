@@ -1,6 +1,10 @@
 ﻿<Properties StartupItem="Модул03\Модул03.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BoolExplore\Program.cs">
+    <Files>
+      <File FileName="BoolExplore\Program.cs" Line="24" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="c:\aula\primeri.csharp.terminal\Модул03\BoolExplore02\Program.cs" line="20" column="32" />
