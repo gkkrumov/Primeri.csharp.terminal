@@ -1,12 +1,22 @@
-﻿<Properties StartupItem="Modul05\Modul05.csproj">
+﻿<Properties StartupItem="Metod02\Metod02.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Modul05\Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Metod02\Program.cs">
     <Files>
-      <File FileName="Modul05\Program.cs" Line="13" Column="1" />
+      <File FileName="Metod02\Program.cs" Line="58" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="C:\aula\primeri.csharp.terminal\Modul05\Modul05\Program.cs" line="31" column="42" />
+      <Breakpoint file="C:\aula\primeri.csharp.terminal\Modul05\Modul05\Program.cs" line="34" column="48" />
+      <Breakpoint file="C:\aula\primeri.csharp.terminal\Modul05\Metod02\Program.cs" line="110" column="1" />
+      <Breakpoint file="C:\aula\primeri.csharp.terminal\Modul05\Metod02\Program.cs" line="108" column="1" />
+      <Breakpoint file="C:\aula\primeri.csharp.terminal\Modul05\Metod02\Program.cs" line="98" column="4" />
+      <Breakpoint file="C:\aula\primeri.csharp.terminal\Modul05\Metod02\Program.cs" line="101" column="1" />
+      <Breakpoint file="C:\aula\primeri.csharp.terminal\Modul05\Metod02\Program.cs" line="109" column="1" />
+      <Breakpoint file="C:\aula\primeri.csharp.terminal\Modul05\Metod02\Program.cs" line="104" column="1" />
+      <Breakpoint file="C:\aula\primeri.csharp.terminal\Modul05\Metod02\Program.cs" line="111" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
