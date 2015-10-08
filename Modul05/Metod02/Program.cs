@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Metod02
+namespace Modul052
 {
 	class MainClass
 	{
@@ -25,7 +25,7 @@ namespace Metod02
 					{
 						Console.WriteLine ( "a . a = " + _a.ToString ());
 					}else{
-						Consple.WriteLine ("Командата не е въведена коректно");
+						Console.WriteLine ("Командата не е въведена коректно");
 					}
 				}
 
@@ -40,16 +40,16 @@ namespace Metod02
 
 					if (cmd04 ( ref _c ))
 					}
-						Console.WriteLine (0);
+						Console.WriteLine ( _c);
 					}
 				}
 
-			}while (usercommand != "exit");
+					}while (usercommand != "exit");			
 
 		}
 
 
-		public static void cmd01 ( string _input) //cmd01 5  ---->5^2 = 25
+				public static enum cmd01 ( string _input) //cmd01 5  ---->5^2 = 25
 		{
 			try
 			{
