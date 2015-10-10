@@ -4,57 +4,91 @@ namespace ClassExplorer
 {
 	public class person
 	{
-		private string simpleString = "текстова промевнлива от клас";
-		private string user = "";
+		private string _userName = "";
+		private string _userPass = "";
 
-		private string hiddenString = "";
+		private string _userID = "";
+		private string _userFName = "";
+		private string _userLName = "";
 
-		public person ( string _ini )
+		public string userName
 		{
-			
-			getUser (_ini);
-			setWelcomeTExt (); 
-
+			get { return _userName; }
 		}
 
-		private void getUser (string _ini)
-		{			
-			if (_ini == "pasword1") hiddenString = "Потребител 1"; 
-			if (_ini == "pasword2") hiddenString = "Потребител 2";
-
-
-			user = hiddenString;
-		}
-		private void setWelcomeTExt ()
+		public string userPass
 		{
-			if (hiddenString.Length > 0)
-				simpleString = "Добре дошли отново, " + user + "!";
-			else
-				simpleString = "Вие нямате достъп до тази програма";
+			get { return _userPass; }
 		}
+
+
+		public string userID
+		{
+			get { return _userID; }
+			set { userID = value; }
+		}
+
+		public string userFName
+		{
+			get { return _userFName; }
+			set { userFName = value; }
+		}
+
+		public string userLName
+		{
+			get { return _userLName; }
+			set { userLName = value; }
+		}
+
+		public person (string _user, string _pass)
+		{
+			checkUser (_user, _pass); 	
+
+
+		}
+
+		private bool checkUser (string _user, string _pass)
+		{
+			if (_user == "user" && _pass == "pass"){
+				_userName = _user; _userPass = _pass;
+
+				//Попълване на пропъртита
+				userID = "4455845";
+				userFName = "Георги";
+				userLName = "Крумов";
+
+				return true;
 				
-		public string getWelcomeMessage()
-		{
-			return simpleString;
+			}
+			return false;
+			
+		
 		}
 
-
-			
+					
+	
+	
 	}
+
 
 	class MainClass
 	{
 		
 		public static void Main (string[] args)
 		{
-			Console.Write ("Парола: "); string _user = Console.ReadLine ();
+			Console.Write ("Потребител: ");       string _user = Console.ReadLine ();
+			Console.Write ("Парола: ");           string _pass = Console.ReadLine ();
+
 
 
 			//Дефиниране на клас
-			person _person = new person(_user);
+			person _person = new person(_user, _pass);
 
 			//Достъпване на клас
-			Console.WriteLine ( _person.getWelcomeMessage() );
+			_person.userFName = "Първо име"; 
+			Console.WriteLine (_person.userFName + " " + _person.userLName);
+
+			//Console.WriteLine ( _person.getWelcomeMessage() );
 
 
 
