@@ -20,6 +20,12 @@ namespace Fact
 		public static void Main (string[] args)
 		{
 			Console.WriteLine ( Fact ( 3 ));
+			Console.WriteLine ( Fact ( 4 ));
+			Console.WriteLine ( Fact ( 5 ));
+			Console.WriteLine ( Fact ( 6 ));
+			Console.WriteLine ( Fact ( 7 ));
+			Console.WriteLine ( Fact ( 8 ));
+			Console.WriteLine ( Fact ( 9 ));
 		}
 	}
 }
