@@ -11,7 +11,7 @@ namespace Modul12
 			int sum = 0;
 
 			//Събиране на числа
-			a = 11112; b = 128;
+			a = 25; b = 15;
 			sum = a + b;
 
 			//Писане в конзола
@@ -19,8 +19,27 @@ namespace Modul12
 			Console.Write (" + ");
 			Console.Write (b);
 			Console.Write (" = ");
-			Console.WriteLine (sum);					
+			Console.WriteLine (sum);
 
+			//Допълнителни опператори
+			Console.WriteLine ("\nИзползване на += ");
+			a += b;
+			Console.WriteLine ( a );
+
+			Console.WriteLine ("\nИзползване на -=");
+			a -= b;
+			Console.WriteLine ( a );
+
+			Console.WriteLine ("\nИзползване на *=");
+			a *= b;
+			Console.WriteLine  ( a );
+
+			Console.WriteLine ("\nИзползване на ++");
+			a++;
+			Console.WriteLine (a);
+
+			Console.WriteLine ("Стандартно делене:" + (187 /14).ToString ());
+			Console.WriteLine ("Остатък от делене:" + (187 % 14).ToString ());
 		}
 	}
 }
