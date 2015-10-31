@@ -1,8 +1,8 @@
 ﻿<Properties StartupItem="TableProject\TableProject.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Modul12\Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TableProject\Program.cs">
     <Files>
-      <File FileName="Modul12\Program.cs" Line="22" Column="32" />
+      <File FileName="TableProject\Program.cs" Line="21" Column="7" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
